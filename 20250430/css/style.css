@@ -1,0 +1,47 @@
+*{box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+header{width: 1200px;
+       border: red solid;}
+section{
+    border: gray solid;
+    height: 100px;
+}
+#left{ width: 200px;
+    float:left ;
+}
+aside{float:left;
+    border:green solid ;
+    width: 150px;
+    height: 300px;
+}
+main{border:blue dotted ;
+font-size: 20px;
+height: 300px;
+}
+main section{ font-size: .8em;
+width: 800px;
+float:right ;
+}
+footer{border:darkred solid ;
+padding: 1rem 10rem;}
+.menu{
+    list-style: none;
+    display: inline;
+    padding: 1.1rem;
+    background: rgb(3, 3, 99);
+    
+    border-radius: 1rem;
+}
+#men{
+    padding: 1rem;
+}
+nav{border: navy  2px solid;
+    border-radius: 1.2rem;
+    
+}
+nav a { 
+text-decoration:none ;
+color: aliceblue;
+}

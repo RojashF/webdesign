@@ -1,0 +1,9 @@
+body{border:red dashed 5px;
+    padding: 1rem;
+}
+header{border:orangered solid 5px ;
+padding: 1rem;}
+main{border: lightcoral dotted 3px;
+padding: 1rem;
+margin: 1rem;}
+footer{background-color:  lightsalmon  ;}

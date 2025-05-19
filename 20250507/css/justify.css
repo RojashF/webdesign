@@ -1,0 +1,20 @@
+article{
+height: 100px;
+width: 100px;
+background: orange;
+}
+section{
+background: rgb(70, 1, 70);
+display: flex;
+}
+article,section{
+margin: 1rem;
+border: solid 2px;
+border-radius: 1rem;
+}
+#a{ justify-content:flex-start;}
+#b{justify-content: flex-end;}
+#c{justify-content: center;}
+#d{justify-content: space-around;}
+#e{justify-content: space-between;}
+#f{justify-content: space-evenly;}

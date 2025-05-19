@@ -1,0 +1,17 @@
+.mop{list-style: none;
+    display: inline;
+    margin: 6rem;
+    border: darkred solid;
+    border-radius: 1.5rem;
+    background: darkred;
+    padding: 1rem;
+}
+nav a{text-decoration: none;
+    color: beige;
+}
+nav{border: red solid;
+border-radius: 1.2rem;
+}
+body{background: gray;
+    
+}

@@ -1,0 +1,16 @@
+section{
+background: rgb(75, 2, 75);
+display: flex;
+}
+article{
+    background: orange;
+    height: 100px;
+    width: 100px;
+}
+section,article{
+    margin: 1rem;
+    border: solid 2px wheat;
+    border-radius: 1rem;
+}
+body{background: purple;}
+main{padding: 1rem; flex-wrap: wrap;}

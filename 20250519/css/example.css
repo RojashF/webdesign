@@ -11,23 +11,45 @@ display: grid;
 }
 main{ 
 }
-article{   margin: 1rem; }
+article{   margin: 1rem; 
+padding: 1rem;}
 #a1{
     background: purple;
     border-radius: 1rem;
     border: solid black;
     grid-area: 2 / 1 / 3 / 3;
     z-index: 1;
+    margin-top: 2rem;
+    margin-right: 3rem;
+    margin-left: 4rem;
+    text-align: center;
+    
 }
 #a2{
  background: darkgrey;
  border: dotted rgb(126, 10, 126);
  border-radius: 1rem;
+  grid-area: 3 / 1 / 5 / 3 ;
+  margin: 4rem;
+  z-index: 1;
 }
-#a3{
+#a3{grid-area: 3 / 4 / 4 / 5 ;
+    z-index: 1;
+    text-align: center;
+    color: black;
+    border-radius: 1rem;
+    margin-right: 4rem;
+    margin-left: 1rem;
+    background: purple;
 
 }
+article a{ text-decoration: none;
+ color: black;
+}
+article a:hover{ color: white;}
 #a4{
-grid-area: 1 / 2 / 5 / 4 ;
-margin: 1rem;
+grid-area: 1 / 2 / 5 / 5 ;
+margin-right: 3rem
+ ;
+margin-bottom: 4rem;
 }

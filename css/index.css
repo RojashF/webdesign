@@ -60,7 +60,7 @@ text-align: center;
 }
 a{text-decoration: none;
 color: darkred;}
-@media screen and (max-with:450px){
+@media screen and (max-with:400px){
     #foto{width: unset;}
     section{margin: 5px;}
     

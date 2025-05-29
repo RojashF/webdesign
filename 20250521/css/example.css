@@ -1,0 +1,40 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows:repeat(3, 120px) ;
+    border: darkred solid;
+    padding: 1rem;
+}
+article{
+    background: darkgray;
+    border: black solid;
+    border-radius: 1rem;
+    height: 50px;
+    width: 50px;
+}
+main{
+    border: black solid;
+    margin: 1rem;
+    padding: 1rem;
+}
+.c1{
+justify-self: start;
+}
+.c2{
+justify-self: center;
+}
+.c3{
+justify-self: end;
+}
+#a1{
+align-self: start;
+}
+#a2{ align-self: center;
+
+}
+#a3{
+align-self: end;
+}

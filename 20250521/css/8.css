@@ -1,0 +1,23 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+main{display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3.150px);
+    border: solid darkred 8px;
+    padding: 2rem;
+}
+section{display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,150px);
+    border:solid orangered;
+    margin: 1rem;
+}
+
+article{
+    border: solid black;
+    background: gray;
+    height: 60px;
+    width: 60px;
+}

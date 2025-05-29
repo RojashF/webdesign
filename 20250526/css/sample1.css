@@ -1,0 +1,23 @@
+main{background: blue;
+width: 1000px;
+border: solid darkred;
+margin: 0 auto;
+font-size: 2rem;
+padding: 1rem;}
+
+@media screen and (max-width:800px) {
+   main{ border: dotted orangered;
+    background: gray;
+    font-size: 1rem;    
+    color: red;
+    width: 650px;
+}
+    }
+    @media screen and (max-width:450px) {
+   main{ border: dotted orangered;
+    background: blue;
+    font-size: 0.7rem;    
+    color: aliceblue;
+    width: unset;
+    margin: unset;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}}

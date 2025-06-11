@@ -23,3 +23,4 @@ footer{background: gray; width: 100%;}
     display: grid; grid-template-columns: 1fr 1fr;}
   
     label{display: block;}
+    #red{grid-area: 1/2/2/3;}

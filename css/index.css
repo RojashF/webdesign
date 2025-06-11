@@ -68,5 +68,5 @@ color: darkred;}
 @media screen and (max-width:500px){
     #foto{width: 100px;}
     section{margin: 3px;}
-    body{font-size: smaller;}
+    body{font-size: x-small;}
 }
